@@ -1,9 +1,9 @@
 import { useCallback, useState } from 'react';
 import { motion } from 'framer-motion';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { FAQS } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
-import FAQItem from './FAQItem';
+import SectionHeading from '../common/SectionHeading.jsx';
+import FAQItem from './FAQItem.jsx';
 
 /** FAQ accordion — one panel open at a time. */
 const FAQSection = () => {

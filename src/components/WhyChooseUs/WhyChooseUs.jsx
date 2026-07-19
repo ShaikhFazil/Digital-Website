@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { getIcon } from '../../utils/icons';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { WHY_US } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
+import SectionHeading from '../common/SectionHeading.jsx';
 
 /** "Why choose us" — four proof points with scale-in icon chips. */
 const WhyChooseUs = () => (

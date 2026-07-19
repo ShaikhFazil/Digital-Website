@@ -2,9 +2,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, Pagination } from 'swiper/modules';
 import { motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
-import { scaleIn, VIEWPORT_ONCE } from '../../animations/variants';
+import { scaleIn, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { TESTIMONIALS } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
+import SectionHeading from '../common/SectionHeading.jsx';
 import 'swiper/css';
 import 'swiper/css/pagination';
 

@@ -3,10 +3,10 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
 import { getIcon } from '../../utils/icons';
-import { fadeLeft, staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants';
+import { fadeLeft, staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { TECH_PILLARS } from '../../constants';
-import Button from '../common/Button';
-import LazyImage from '../common/LazyImage';
+import Button from '../common/Button.jsx';
+import LazyImage from '../common/LazyImage.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 

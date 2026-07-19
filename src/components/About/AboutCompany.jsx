@@ -3,9 +3,9 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
-import { fadeLeft, fadeRight, VIEWPORT_ONCE } from '../../animations/variants';
-import Button from '../common/Button';
-import LazyImage from '../common/LazyImage';
+import { fadeLeft, fadeRight, VIEWPORT_ONCE } from '../../animations/variants.jsx';
+import Button from '../common/Button.jsx';
+import LazyImage from '../common/LazyImage.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 

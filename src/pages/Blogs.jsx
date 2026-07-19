@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import { Clock } from 'lucide-react';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants.jsx';
 import { BLOG_POSTS } from '../constants';
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import LazyImage from '../components/common/LazyImage';
-import ContactCTA from '../components/CTA/ContactCTA';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import LazyImage from '../components/common/LazyImage.jsx';
+import ContactCTA from '../components/CTA/ContactCTA.jsx';
 
 /** Blog index: card grid with category chips and read times. */
 const Blogs = () => (

@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
-import ScrollToTop from '../components/common/ScrollToTop';
+import Navbar from '../components/Navbar/Navbar.jsx';
+import Footer from '../components/Footer/Footer.jsx';
+import ScrollToTop from '../components/common/ScrollToTop.jsx';
 import { useLenis } from '../hooks/useLenis';
 
 /** App shell: smooth scroll, navbar, routed content, footer. */

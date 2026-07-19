@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { TRUSTED_BRANDS } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
+import SectionHeading from '../common/SectionHeading.jsx';
 
 /** Client logo wall — hover restores full brightness per tile. */
 const ClientLogos = () => (

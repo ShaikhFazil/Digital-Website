@@ -2,9 +2,9 @@ import { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { PROCESS_STEPS } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
+import SectionHeading from '../common/SectionHeading.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 

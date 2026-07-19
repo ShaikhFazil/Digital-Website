@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
-import { staggerContainer, VIEWPORT_ONCE } from '../../animations/variants';
+import { staggerContainer, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { SERVICES } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
-import ServiceCard from './ServiceCard';
+import SectionHeading from '../common/SectionHeading.jsx';
+import ServiceCard from './ServiceCard.jsx';
 
 /** Home services grid with staggered card reveals. */
 const ServicesGrid = ({ heading = true }) => (

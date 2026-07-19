@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { blurReveal, fadeUp, VIEWPORT_ONCE } from '../../animations/variants';
-import Button from '../common/Button';
+import { blurReveal, fadeUp, VIEWPORT_ONCE } from '../../animations/variants.jsx';
+import Button from '../common/Button.jsx';
 import { SITE } from '../../constants';
 
 /** Full-width closing CTA band with glow backdrop. */

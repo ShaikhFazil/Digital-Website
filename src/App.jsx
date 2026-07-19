@@ -1,18 +1,18 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import MainLayout from './layouts/MainLayout';
+import MainLayout from './layouts/MainLayout.jsx';
 
 // Route-level code splitting: each page ships as its own chunk.
-const Home = lazy(() => import('./pages/Home'));
-const About = lazy(() => import('./pages/About'));
-const Services = lazy(() => import('./pages/Services'));
-const Industries = lazy(() => import('./pages/Industries'));
-const CaseStudies = lazy(() => import('./pages/CaseStudies'));
-const Blogs = lazy(() => import('./pages/Blogs'));
-const Contact = lazy(() => import('./pages/Contact'));
-const Careers = lazy(() => import('./pages/Careers'));
-const NotFound = lazy(() => import('./pages/NotFound'));
+const Home = lazy(() => import('./pages/Home.jsx'));
+const About = lazy(() => import('./pages/About.jsx'));
+const Services = lazy(() => import('./pages/Services.jsx'));
+const Industries = lazy(() => import('./pages/Industries.jsx'));
+const CaseStudies = lazy(() => import('./pages/CaseStudies.jsx'));
+const Blogs = lazy(() => import('./pages/Blogs.jsx'));
+const Contact = lazy(() => import('./pages/Contact.jsx'));
+const Careers = lazy(() => import('./pages/Careers.jsx'));
+const NotFound = lazy(() => import('./pages/NotFound.jsx'));
 
 /** Minimal branded loader shown while a route chunk downloads. */
 const RouteFallback = () => (

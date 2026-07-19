@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
+    outDir: 'dist',
+    sourcemap: true,
     rollupOptions: {
       output: {
-        // Manual chunks keep vendor code cacheable and the main bundle small
         manualChunks: {
           react: ['react', 'react-dom', 'react-router-dom'],
           animation: ['gsap', 'framer-motion', 'lenis'],
@@ -15,5 +15,14 @@ export default defineConfig({
         },
       },
     },
+  },
+  server: {
+    port: 3000,
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom'],
+  },
+  resolve: {
+    extensions: ['.jsx', '.js', '.json'],
   },
 });

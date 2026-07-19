@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants.jsx';
 import { INDUSTRIES } from '../constants';
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import LazyImage from '../components/common/LazyImage';
-import TestimonialsSlider from '../components/Testimonials/TestimonialsSlider';
-import ContactCTA from '../components/CTA/ContactCTA';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import LazyImage from '../components/common/LazyImage.jsx';
+import TestimonialsSlider from '../components/Testimonials/TestimonialsSlider.jsx';
+import ContactCTA from '../components/CTA/ContactCTA.jsx';
 
 /** Industries page: full vertical grid with hover-zoom tiles. */
 const Industries = () => (

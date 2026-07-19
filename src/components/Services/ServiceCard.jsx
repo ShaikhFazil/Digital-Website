@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { getIcon } from '../../utils/icons';
-import { staggerItem } from '../../animations/variants';
-import LazyImage from '../common/LazyImage';
+import { staggerItem } from '../../animations/variants.jsx';
+import LazyImage from '../common/LazyImage.jsx';
 
 /**
  * Single service card: image zoom on hover, lift + shadow, icon chip,

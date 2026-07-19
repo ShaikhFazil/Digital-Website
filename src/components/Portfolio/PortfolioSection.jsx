@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, TrendingUp } from 'lucide-react';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { PORTFOLIO } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
-import LazyImage from '../common/LazyImage';
+import SectionHeading from '../common/SectionHeading.jsx';
+import LazyImage from '../common/LazyImage.jsx';
 
 /** Featured case studies grid with image zoom + hover lift. */
 const PortfolioSection = ({ limit = 4, heading = true }) => (

@@ -1,0 +1,2 @@
+import{j as o}from"./animation-SE7gw9G4.js";import{r as c}from"./react-e-Mqx-H9.js";import{c as a}from"./index-DCFIvYZ1.js";const p=({src:r,alt:t,className:e,imgClassName:s,...i})=>{const[l,n]=c.useState(!1);return o.jsx("div",{className:a("relative overflow-hidden bg-ink-800",e),children:o.jsx("img",{src:r,alt:t,loading:"lazy",decoding:"async",onLoad:()=>n(!0),className:a("h-full w-full object-cover transition-[opacity,filter,transform] duration-700",l?"opacity-100 blur-0":"opacity-0 blur-md",s),...i})})};export{p as L};
+//# sourceMappingURL=LazyImage-Fr6-p5n_.js.map

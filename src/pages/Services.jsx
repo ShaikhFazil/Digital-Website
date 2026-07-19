@@ -1,10 +1,10 @@
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import ServicesGrid from '../components/Services/ServicesGrid';
-import TechSection from '../components/Technology/TechSection';
-import ProcessTimeline from '../components/Process/ProcessTimeline';
-import FAQSection from '../components/FAQ/FAQSection';
-import ContactCTA from '../components/CTA/ContactCTA';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import ServicesGrid from '../components/Services/ServicesGrid.jsx';
+import TechSection from '../components/Technology/TechSection.jsx';
+import ProcessTimeline from '../components/Process/ProcessTimeline.jsx';
+import FAQSection from '../components/FAQ/FAQSection.jsx';
+import ContactCTA from '../components/CTA/ContactCTA.jsx';
 
 /** Services page: full capability grid + AI section + process + FAQ. */
 const Services = () => (

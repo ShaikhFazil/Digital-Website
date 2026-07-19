@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight, Briefcase, MapPin } from 'lucide-react';
-import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants';
+import { staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants.jsx';
 import { JOBS, SITE } from '../constants';
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import ContactCTA from '../components/CTA/ContactCTA';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import ContactCTA from '../components/CTA/ContactCTA.jsx';
 
 const PERKS = [
   'Hybrid-first with quarterly team weeks',

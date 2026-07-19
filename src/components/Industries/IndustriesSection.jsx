@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, FreeMode } from 'swiper/modules';
 import { motion } from 'framer-motion';
-import { fadeUp, VIEWPORT_ONCE } from '../../animations/variants';
+import { fadeUp, VIEWPORT_ONCE } from '../../animations/variants.jsx';
 import { INDUSTRIES } from '../../constants';
-import SectionHeading from '../common/SectionHeading';
-import LazyImage from '../common/LazyImage';
+import SectionHeading from '../common/SectionHeading.jsx';
+import LazyImage from '../common/LazyImage.jsx';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 

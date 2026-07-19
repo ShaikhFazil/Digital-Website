@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { blurReveal, fadeUp } from '../animations/variants';
-import PageTransition from '../components/common/PageTransition';
-import Button from '../components/common/Button';
+import { blurReveal, fadeUp } from '../animations/variants.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import Button from '../components/common/Button.jsx';
 
 /** 404 page with animated glitch-style numerals. */
 const NotFound = () => (

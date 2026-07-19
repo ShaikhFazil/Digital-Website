@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { fadeLeft, fadeRight, staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants';
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import StatsSection from '../components/Stats/StatsSection';
-import ProcessTimeline from '../components/Process/ProcessTimeline';
-import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs';
-import ContactCTA from '../components/CTA/ContactCTA';
-import LazyImage from '../components/common/LazyImage';
+import { fadeLeft, fadeRight, staggerContainer, staggerItem, VIEWPORT_ONCE } from '../animations/variants.jsx';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import StatsSection from '../components/Stats/StatsSection.jsx';
+import ProcessTimeline from '../components/Process/ProcessTimeline.jsx';
+import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs.jsx';
+import ContactCTA from '../components/CTA/ContactCTA.jsx';
+import LazyImage from '../components/common/LazyImage.jsx';
 
 const VALUES = [
   { title: 'Radical clarity', text: 'Plain-language reporting, honest forecasts and bad news delivered early.' },

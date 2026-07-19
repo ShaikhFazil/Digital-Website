@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 import { useScrolled } from '../../hooks/useScrolled';
 import { cn } from '../../utils/cn';
 import { NAV_LINKS, SITE } from '../../constants';
-import Logo from './Logo';
-import MobileMenu from './MobileMenu';
+import Logo from './Logo.jsx';
+import MobileMenu from './MobileMenu.jsx';
 
 /**
  * Sticky navbar.

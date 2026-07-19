@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight, X } from 'lucide-react';
 import { NAV_LINKS, SITE } from '../../constants';
 import { useLockBody } from '../../hooks/useLockBody';
-import Logo from './Logo';
+import Logo from './Logo.jsx';
 
 const panel = {
   hidden: { x: '100%' },

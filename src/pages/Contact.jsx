@@ -1,11 +1,11 @@
 import { useCallback, useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Mail, MapPin, Phone } from 'lucide-react';
-import { fadeLeft, fadeRight, VIEWPORT_ONCE } from '../animations/variants';
+import { fadeLeft, fadeRight, VIEWPORT_ONCE } from '../animations/variants.jsx';
 import { SERVICES, SITE } from '../constants';
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import Button from '../components/common/Button';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import Button from '../components/common/Button.jsx';
 
 const INPUT_CLASSES =
   'w-full rounded-xl border border-white/15 bg-ink-800/60 px-4 py-3.5 text-sm text-white placeholder:text-mist-400 transition-colors focus:border-ember-400';

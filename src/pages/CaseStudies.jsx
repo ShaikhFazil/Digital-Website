@@ -1,9 +1,9 @@
-import PageHero from '../components/common/PageHero';
-import PageTransition from '../components/common/PageTransition';
-import PortfolioSection from '../components/Portfolio/PortfolioSection';
-import StatsSection from '../components/Stats/StatsSection';
-import ClientLogos from '../components/Brands/ClientLogos';
-import ContactCTA from '../components/CTA/ContactCTA';
+import PageHero from '../components/common/PageHero.jsx';
+import PageTransition from '../components/common/PageTransition.jsx';
+import PortfolioSection from '../components/Portfolio/PortfolioSection.jsx';
+import StatsSection from '../components/Stats/StatsSection.jsx';
+import ClientLogos from '../components/Brands/ClientLogos.jsx';
+import ContactCTA from '../components/CTA/ContactCTA.jsx';
 
 const PORTFOLIO_LIMIT = 8;
 
